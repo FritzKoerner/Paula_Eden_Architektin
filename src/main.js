@@ -13,6 +13,9 @@ import { createApp } from 'vue'
 // Plugins
 import { registerPlugins } from '@/plugins'
 
+//Styles SASS
+
+//Mounting
 const app = createApp(App)
 
 registerPlugins(app)
