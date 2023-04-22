@@ -4,8 +4,9 @@
             <v-col 
                 md="3"
                 v-for="i in 12"    
-            >   
-                <mock-proj />
+            >  
+                <mock-proj :number="i"/>
+                
             </v-col>
         </v-row>
     </v-container>
@@ -15,9 +16,6 @@
     import MockProj from '@/components/MockProj.vue';
 </script>
 
-<style>
-    * {
-        border-color: red;
-        border: 2px;
-    }
+<style scoped>
+  
 </style>
